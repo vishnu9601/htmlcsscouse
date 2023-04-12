@@ -1,0 +1,26 @@
+<nav>
+  <ul>
+    <li><a href="#"><i class="fas fa-home"  aria-hidden="true"></i> Home</a></li>
+    <li><a href="#" class="active">About</a></li>
+    <li><a href="#">Shop</a></li>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">Connect</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="https://www.twitter.com/" target="_blank" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+  </ul>
+</nav>
+
+
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 1.5rem;
+  display: flex;
+}
+nav a {
+  padding: 0.5rem 1rem;
+  display: block;
+  border: 1px solid red;
+}
